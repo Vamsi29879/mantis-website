@@ -291,7 +291,7 @@ export function WorkflowStepsSection({ reducedMotion }: { reducedMotion: RM }) {
                 ref={(el) => {
                   blockRefs.current[i] = el;
                 }}
-                className="flex min-h-[88vh] flex-col justify-center py-12"
+                className="flex min-h-[60vh] flex-col justify-center py-8"
               >
                 <div className="flex items-center gap-3">
                   <span
